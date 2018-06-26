@@ -2,4 +2,6 @@ print("solicitar datos")
 
 library(foreign)
 
-file <- read.csv("file.csv")
+miarchivo <- read.csv("file.csv")
+
+dim(miarchivo)
